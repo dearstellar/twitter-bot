@@ -28,10 +28,12 @@ Twitter.stream('statuses/filter', {track: '@DearStellar'}, function(stream) {
 		var date = new Date();
 		var time = date.getTime(); 
 
-			if (name == "@DearStellar") {
+		//to prevent @dearstellar from replying its own tweets	
+		if (name == "@DearStellar") {
 			return;
 		}
-else {
+		
+		else {
 
 		if (txtArr[1] !== "balance" || !StellarSdk.Keypair.isValidPublicKey(txtArr[2]) ) {
 		// Tweet back correct syntax
@@ -116,7 +118,8 @@ else {
 		});
 		
 		}
-}
+		
+		}
 
 	});
 
