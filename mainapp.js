@@ -26,6 +26,7 @@ Twitter.stream('statuses/filter', {track: '@DearStellar'}, function(stream) {
 		var txt = tweet.text;
 		var txtArr = txt.split(" ");
 		var date = new Date();
+		// unique timestamp will be used to avert duplicate tweets
 		var time = date.getTime(); 
 
 		//to prevent @dearstellar from replying its own tweets	
