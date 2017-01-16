@@ -4,10 +4,10 @@ var TwitterPackage = require('twitter');
 var StellarSdk = require('stellar-sdk');
  
 var secret = {
-            consumer_key: 'wevcn30cW0mpxXP17FTWZCjb9',
-            consumer_secret: '1C8vRm8knCEoVRVP9rTX6kWpiab0FetndX2BBe1e9QQUM48UnC',
-            access_token_key: '814073553230368768-x7L11XK7LCSa7yaMVU5RIZTwDZwNJp5',
-            access_token_secret: 'vlUPGmYbBCYxT7F6mtxtABMDA3MQBal3jrnZTNMxfUUTX'
+            consumer_key: 'XXX',
+            consumer_secret: 'XXX',
+            access_token_key: 'XXX',
+            access_token_secret: 'XXX'
         };
  
 var Twitter = new TwitterPackage(secret);
