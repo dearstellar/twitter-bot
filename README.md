@@ -4,7 +4,7 @@ DearStellar is a Twitter bot that listens to mentions from Stellar users who wan
 
 # Prerequisites
 
-In order to make proper use of this application, you will need to have a valid Stellar account, a Twitter account, and also be following @DearStellar or have your direct message open to everyone on Twitter. You will also need to tweet @DearStellar in the format - "@DearStellar balance YOUR-ACCOUNTID" for your request to be processed completely. If you do not tweet in this format, an automated tweet will be sent from @DearStellar asking you to tweet in the correct format. 
+In order to make proper use of this application, you will need to have a valid Stellar account, a Twitter account, and also be following @DearStellar or have your direct message open to everyone on Twitter. You will also need to tweet @DearStellar in the format - "@DearStellar balance YOUR-ACCOUNTID" for your request to be processed completely. If you do not tweet in this format, an automated tweet will be sent from @DearStellar asking you to tweet in the correct format. Please note that this application is run on the Stellar test network.
 
 # Contact
 
